@@ -1,0 +1,36 @@
+.shoppingCart_error {
+  text-align: center;
+}
+.shoppingCart_error h2 {
+  margin-bottom: 15px;
+  color: rgb(61, 59, 59);
+}
+.shoppingCart_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.shoppingCart_head .btn {
+  margin: initial;
+  margin-top: 0 !important;
+}
+.text_success {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: rgb(31, 28, 28);
+}
+.text_subSuccess {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  color: rgb(31, 28, 28);
+}
+.shoppingCart_total span {
+  font-size: 1.1rem;
+  display: block;
+}
+.shoppingCart_total span:last-child {
+  font-weight: bold;
+}

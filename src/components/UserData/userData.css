@@ -1,0 +1,65 @@
+.userData_form {
+  display: grid;
+  grid-gap: 10px;
+  grid-template:
+    "fristname      lastname"
+    "identification number_phone"
+    "email          email"
+    "btn            btn";
+}
+.userData_form .userData_group:nth-child(1) {
+  grid-area: fristname;
+}
+.userData_form .userData_group:nth-child(2) {
+  grid-area: lastname;
+}
+.userData_form .userData_group:nth-child(3) {
+  grid-area: identification;
+}
+.userData_form .userData_group:nth-child(3) {
+  grid-area: number_phone;
+}
+.userData_form .userData_group:nth-child(5) {
+  grid-area: email;
+}
+.userData_form .userData_group:nth-child(6) {
+  grid-area: btn;
+}
+.userData_group {
+  display: flex;
+  flex-flow: column;
+}
+.userData_form input {
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding: 5px;
+  height: 35px;
+}
+.userData_form input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(94, 134, 255);
+}
+.btn {
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+  border: 1px solid transparent;
+  background: rgb(94, 134, 255);
+  padding: 10px;
+  font-size: 0.9rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.userData .btn {
+  margin-top: 15px;
+}
+.userData h2 {
+  margin-bottom: 10px;
+}
+.userData p {
+  margin-bottom: 25px;
+}

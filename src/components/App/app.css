@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background: rgba(175, 175, 175, 0.158);
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 75%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 0.95rem;
+}
