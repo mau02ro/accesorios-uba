@@ -2,7 +2,6 @@ import React from "react";
 import { createPortal } from "react-dom";
 
 import "./modal.css";
-import { Fragment } from "react";
 
 const Modal = ({ children }) => {
   return createPortal(
